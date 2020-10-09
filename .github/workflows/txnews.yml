@@ -6,12 +6,12 @@
 
 name: txnews
 
-on:
-  workflow_dispatch:
-  schedule:
-     - cron: '*/7 1-14 * * *'
-  watch:
-     types: started
+# on:
+#   workflow_dispatch:
+#   schedule:
+#      - cron: '*/7 1-14 * * *'
+#   watch:
+#      types: started
     
 jobs:
   build:
