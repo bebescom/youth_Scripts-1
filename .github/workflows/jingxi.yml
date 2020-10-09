@@ -1,12 +1,12 @@
 
 name: jingxi
 
-on:
-  workflow_dispatch:
-  schedule:
-     - cron: '5 23 * * *'
-  watch:
-    types: started
+# on:
+#   workflow_dispatch:
+#   schedule:
+#      - cron: '5 23 * * *'
+#   watch:
+#     types: started
 jobs:
   build:
     runs-on: ubuntu-latest
